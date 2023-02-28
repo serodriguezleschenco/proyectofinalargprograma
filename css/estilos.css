@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* Margen y fondo página */
+body {
+  background-color: #3F78A6;
+  padding: 50px 30px 30px 40px;
+  margin-left: 10px;
+  height: 100%;
+  width: 95%; }
+
+header {
+  height: 100%;
+  width: 100%; 
+  margin-top: 20px;
+}
+
+/* Ancho máximo menú */
+.navbar {
+  max-width: 100% !important; }
+
+/* Formateo h1 hasta h4 */
+h1 {
+  color: whitesmoke;
+  text-align: center; 
+}
+
+/* Interpolaciones */
+h2 {
+  color: whitesmoke;
+  text-align: center; 
+}
+
+h3 {
+  text-align: center; 
+}
+
+h4 {
+  text-align: center;
+}
+
+/* Para centrar textos P y cajas*/
+.centrar {
+    text-align: center;
+}
+
+#centrar {
+  text-align: center;
+}
+
+/* Formato cricular para foto de perfil*/
+.circulo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.redaccion {
+    white-space: pre-line;
+    font-size: 20px;
+    color: #ffffff; 
+    background:#cf0258;
+    margin: 0 0 25px;
+    padding: 5px;
+    border-radius: 60px 0px 60px 0px; 
+    -moz-border-radius: 60px 0px 60px 0px; 
+    -webkit-border-radius: 60px 0px 60px 0px; 
+    border: 2px solid #d5dbe9;
+    margin-top: 20px;
+}
+
+.inexperiencia {
+    color:black !important;
+    font-size: 20px;
+    background:#05c0b0;
+    margin: 0 0 25px;
+    padding: 30px;
+    border-radius: 60px 0px 60px 0px; 
+    -moz-border-radius: 60px 0px 60px 0px; 
+    -webkit-border-radius: 60px 0px 60px 0px; 
+    border: 2px solid #d5dbe9;
+    margin-top: 20px;
+}
+
+#informacion1 {
+    text-align: center;
+}
+
+#informacion2 {
+    text-align: center;
+}
+
+#informacion3 {
+    text-align: center;
+}
+
+#informacion4 {
+    text-align: center;
+}
+
+.info {
+    white-space: pre-line;
+    font-size: 18px;
+    color: #ffffff; 
+    background:#cf0258;;
+    margin: 0 0 25px;
+    padding: 5px;
+    border-radius: 60px 0px 60px 0px; 
+    -moz-border-radius: 60px 0px 60px 0px; 
+    -webkit-border-radius: 60px 0px 60px 0px; 
+    border: 2px solid #d5dbe9;
+    margin-top: 20px;
+}
+
+/*Centrar botones con espacio entre sí*/
+.botones {
+    line-height: 3.5;
+    text-align: center;
+}
+
+.info-aptitudes {
+  font-size: 18px;
+  color: #ffffff; 
+  background:#7f3ace;;
+  margin: 0 0 25px;
+  padding: 10px;
+  border-radius: 60px 0px 60px 0px; 
+  -moz-border-radius: 60px 0px 60px 0px; 
+  -webkit-border-radius: 60px 0px 60px 0px; 
+  border: 2px solid #d5dbe9;
+  margin-top: 20px;
+}
+
+.info-estudios {
+  white-space: pre-line;
+  font-size: 18px;
+  color: #ffffff; 
+  background:#7f3ace;;
+  margin: 0 0 25px;
+  padding: 10px;
+  border-radius: 60px 0px 60px 0px; 
+  -moz-border-radius: 60px 0px 60px 0px; 
+  -webkit-border-radius: 60px 0px 60px 0px; 
+  border: 2px solid #d5dbe9;
+  margin-top: 20px;
+}
+
+.flex-aptitudes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+}
+
+
+/*Formulario de Contacto*/
+.bigicon {
+  font-size: 30px;
+  color: #000000;
+}
+
+.fomrularioContacto {
+  color:black !important;
+  font-size: 20px;
+  background:#05c0b0;
+  margin: 0 0 25px;
+  padding: 30px;
+  border-radius: 60px 0px 60px 0px; 
+  -moz-border-radius: 60px 0px 60px 0px; 
+  -webkit-border-radius: 60px 0px 60px 0px; 
+  border: 2px solid #d5dbe9;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilo para sección licencia sitio*/
+.licencia {
+    text-align: center;
+    font-size: x-small;
+    color:whitesmoke
+}
+
+/*footer*/
+footer .F-Follow {
+    padding: 1rem; }
+  
+  footer .F-Follow .F-Redes {
+    height: 4rem;
+    margin-bottom: 1rem; }
+  
+  footer .F-Follow .F-Redes .col-1 {
+    width: fit-content;
+    padding: 0 !important; }
+  
+  footer .F-Follow .F-Redes .col-1 a {
+    list-style: none;
+    margin: 0;
+    padding: 0 !important; }
+  
+  footer .F-Follow .F-Redes .col-1 a img {
+    height: 2.5rem;
+    width: 2.5rem;
+    opacity: 70%;
+    padding: 0 !important; }
+  
+  footer .F-Follow .F-Redes .col-1 a img:hover {
+    transition: .5s;
+    transform: scale(1.25);
+    opacity: 100%; }
+  
+  footer .F-Follow .Seguinos {
+    width: fit-content; }
+  
+  footer .F-Follow .seguime p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold; }

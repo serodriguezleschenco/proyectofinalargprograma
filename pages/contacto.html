@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <meta name="description" content="Formulario de Contacto de Samuel Rodriguez para detalle en CV digital para proyecto Argentina Programa 4.0">
+    <meta name="keywords" content="Formulario, Contacto, Sugerencias, Datos, Busqueda Desarrollador, Rosario">
+    <title>Contacto</title>
+</head>
+<body>
+  <header>
+    <h1>Dejame tus datos de contacto</h1>
+  </header>
+
+  <!--Menú presente en toda la página web-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand">CV Samuel Rodriguez 1.0</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/personales.html">Datos Personales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/estudios.html">Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/experiencia.html">Experiencia y Aptitudes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+  <main>
+      <!-- Formulario de Contacto -->
+    <section class="fomrularioContacto">
+      <div class="container">
+        <div class="row" justify-content-center>
+          <div class="col-md-12">
+            <div class="well well-sm">
+              <form class="form-horizontal" method=""> <!-- No utilizo metodo "post" para evitar el error "Esta página no funciona"--> 
+                <fieldset>
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                    <div class="col-md-12">
+                      <input id="fnombre" name="nombre" type="text" pattern="[A-Za-z]+" maxlength="50" placeholder="Nombre" class="form-control" required>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-address-book bigicon"></i></span>
+                    <div class="col-md-12">
+                      <input id="fapellido" name="apellido" type="text" pattern="[A-Za-z]+" maxlength="50" placeholder="Apellido" class="form-control" required>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                    <div class="col-md-12">
+                      <input id="femail" name="email" type="email" placeholder="Email" class="form-control" required>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                    <div class="col-md-12">
+                      <input id="ftelefono" name="telefono" type="text" placeholder="Teléfono" class="form-control" required>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                    <div class="col-md-12">
+                      <textarea class="form-control" id="fmensage" name="mensage" placeholder="Por favor, introducí tu masaje dentro de este cuadro de textro. Me voy a poner en contacto a la brevedad. !Saludos!" rows="7" required></textarea>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <div class="col-md-12 text-center">
+                      <button type="submit" class="btn btn-dark">Enviar</button>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container-fluid">
+    <div class="container-lg">
+      <div class="row align-items-center justify-content-around">
+        <div class="F-Follow row flex-column col-8 col-md-3 align-items-center justify-content-center">
+          <div class="seguime">
+            <p>Mis Redes</p>
+          </div>
+          <div class="col-12 row F-Redes align-items-center justify-content-around">
+            <div class="col-1">
+              <a href="https://www.facebook.com/">
+              <img src="/img/ico-fb2.png" alt="Facebook">
+              </a>
+          </div>
+          <div class="col-1 ">
+            <a href="https://instagram.com/">
+            <img src="/img/ico-ig2.png" alt="Instagram">
+            </a>
+          </div>
+          <div class="col-1 ">
+            <a  href="https://twitter.com/">
+            <img src="/img/ico-tw2.png" alt="Twitter">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="licencia">© Copyright 2023 Samuel Rodriguez - Todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="https://kit.fontawesome.com/5862195fbd.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+
+</body>
+</html>
